@@ -17,7 +17,8 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-9">
-          <img class="img-fluid img-thumbail "src="img/Logo.svg" alt="Grupo Tea: Atención Oftalmológica">
+          <a href="<?= base_url() ?>"><img class="img-fluid img-thumbail "src="img/Logo.svg" alt="Grupo Tea: Atención Oftalmológica"></a>
+
         </div>
         <div class="col d-flex justify-content-center align-items-center">
           <div class="btn-group" role="group" aria-label="Basic mixed styles example">

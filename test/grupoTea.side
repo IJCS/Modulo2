@@ -429,6 +429,442 @@
       ],
       "value": ""
     }]
+  }, {
+    "id": "a7ff4e5c-eca1-46b9-9073-9a67a8ecfda6",
+    "name": "Register Fail",
+    "commands": [{
+      "id": "1c4c26d2-a729-41e9-b036-f980708ca501",
+      "comment": "",
+      "command": "open",
+      "target": "/grupoTea/public/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72d69561-284c-47d0-890b-dfa572b5e984",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1047",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0246dbe-e432-4141-8fac-ed4e029781eb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-outline-secondary",
+      "targets": [
+        ["css=.btn-outline-secondary", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Registrarse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50814652-c4a7-4b5a-8729-503b9fda675a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-outline-secondary",
+      "targets": [
+        ["css=.btn-outline-secondary", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Registrarse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48a55567-53de-477a-ab5c-704219cc8c2f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-outline-secondary",
+      "targets": [
+        ["css=.btn-outline-secondary", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Registrarse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b119ecd-c4d9-4d9d-a9f0-71b773e482d9",
+      "comment": "",
+      "command": "click",
+      "target": "id=NN",
+      "targets": [
+        ["id=NN", "id"],
+        ["name=NN", "name"],
+        ["css=#NN", "css:finder"],
+        ["xpath=//input[@id='NN']", "xpath:attributes"],
+        ["xpath=//div[@id='Regis']/div/div/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72c6f095-f261-463d-95c7-fa09b2c1edf3",
+      "comment": "",
+      "command": "type",
+      "target": "id=NN",
+      "targets": [
+        ["id=NN", "id"],
+        ["name=NN", "name"],
+        ["css=#NN", "css:finder"],
+        ["xpath=//input[@id='NN']", "xpath:attributes"],
+        ["xpath=//div[@id='Regis']/div/div/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "x"
+    }, {
+      "id": "2b439e82-9f9e-448f-a083-c2380b0b3946",
+      "comment": "",
+      "command": "click",
+      "target": "id=NA",
+      "targets": [
+        ["id=NA", "id"],
+        ["name=NA", "name"],
+        ["css=#NA", "css:finder"],
+        ["xpath=//input[@id='NA']", "xpath:attributes"],
+        ["xpath=//div[@id='Regis']/div/div/form/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2695ce09-28e0-415e-a65e-cb3a10aaf613",
+      "comment": "",
+      "command": "type",
+      "target": "id=NA",
+      "targets": [
+        ["id=NA", "id"],
+        ["name=NA", "name"],
+        ["css=#NA", "css:finder"],
+        ["xpath=//input[@id='NA']", "xpath:attributes"],
+        ["xpath=//div[@id='Regis']/div/div/form/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": "z"
+    }, {
+      "id": "e52255ec-0953-4035-981e-9b66ffcad8ac",
+      "comment": "",
+      "command": "click",
+      "target": "id=CEr",
+      "targets": [
+        ["id=CEr", "id"],
+        ["name=CEr", "name"],
+        ["css=#CEr", "css:finder"],
+        ["xpath=//input[@id='CEr']", "xpath:attributes"],
+        ["xpath=//div[@id='Regis']/div/div/form/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b38609f8-472f-457e-b197-0134e2b37dba",
+      "comment": "",
+      "command": "type",
+      "target": "id=CEr",
+      "targets": [
+        ["id=CEr", "id"],
+        ["name=CEr", "name"],
+        ["css=#CEr", "css:finder"],
+        ["xpath=//input[@id='CEr']", "xpath:attributes"],
+        ["xpath=//div[@id='Regis']/div/div/form/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "x@z"
+    }, {
+      "id": "1bc6d89b-3ca6-4152-9a09-4d246c078535",
+      "comment": "",
+      "command": "click",
+      "target": "id=Passr",
+      "targets": [
+        ["id=Passr", "id"],
+        ["name=Passr", "name"],
+        ["css=#Passr", "css:finder"],
+        ["xpath=//input[@id='Passr']", "xpath:attributes"],
+        ["xpath=//div[@id='Regis']/div/div/form/div/div/div[2]/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36760f45-a861-4e4c-83fd-086f77d021d9",
+      "comment": "",
+      "command": "type",
+      "target": "id=Passr",
+      "targets": [
+        ["id=Passr", "id"],
+        ["name=Passr", "name"],
+        ["css=#Passr", "css:finder"],
+        ["xpath=//input[@id='Passr']", "xpath:attributes"],
+        ["xpath=//div[@id='Regis']/div/div/form/div/div/div[2]/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "x"
+    }, {
+      "id": "16fbdd66-e64c-48ab-8772-7db77e04651e",
+      "comment": "",
+      "command": "click",
+      "target": "id=Regis",
+      "targets": [
+        ["id=Regis", "id"],
+        ["css=.modal-open > #Regis", "css:finder"],
+        ["xpath=//div[@id='Regis']", "xpath:attributes"],
+        ["xpath=//body/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e4a0c72b-7370-4826-95fd-fc1ae1b3cbaf",
+    "name": "Register User",
+    "commands": [{
+      "id": "e3b379e4-d3e8-429e-b265-d8f28ac0b704",
+      "comment": "",
+      "command": "executeScript",
+      "target": " return Math.floor(100000 + (Math.random() * 999999))",
+      "targets": [],
+      "value": "id"
+    }, {
+      "id": "090ce1cb-f13d-4d43-9a3e-93d644abe7ba",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return \"Test@\" + ${id} + \".com\"",
+      "targets": [],
+      "value": "mail"
+    }, {
+      "id": "92d5d6b3-055c-4759-bfcc-f8b42fb35892",
+      "comment": "",
+      "command": "open",
+      "target": "/grupoTea/public/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f83f8bb-df4a-4388-9535-9dd7c9a34379",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ad0326c-7de5-4f00-953a-5550bf4ddb8c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-outline-secondary",
+      "targets": [
+        ["css=.btn-outline-secondary", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Registrarse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6aa49af-e1de-442c-9f62-60fc8c16ca85",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-outline-secondary",
+      "targets": [
+        ["css=.btn-outline-secondary", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Registrarse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a048fec6-879a-4fbe-a0f3-df5d2f3d01f9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-outline-secondary",
+      "targets": [
+        ["css=.btn-outline-secondary", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Registrarse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6b0185f-14f4-41b5-acab-81d1bfab16ae",
+      "comment": "",
+      "command": "click",
+      "target": "id=NN",
+      "targets": [
+        ["id=NN", "id"],
+        ["name=NN", "name"],
+        ["css=#NN", "css:finder"],
+        ["xpath=//input[@id='NN']", "xpath:attributes"],
+        ["xpath=//div[@id='Regis']/div/div/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6591ee06-e769-4a48-a032-de25b7bb26eb",
+      "comment": "",
+      "command": "type",
+      "target": "id=NN",
+      "targets": [
+        ["id=NN", "id"],
+        ["name=NN", "name"],
+        ["css=#NN", "css:finder"],
+        ["xpath=//input[@id='NN']", "xpath:attributes"],
+        ["xpath=//div[@id='Regis']/div/div/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "Test"
+    }, {
+      "id": "c92ad6a7-dceb-4efe-a7ab-7cd464413c25",
+      "comment": "",
+      "command": "click",
+      "target": "id=NA",
+      "targets": [
+        ["id=NA", "id"],
+        ["name=NA", "name"],
+        ["css=#NA", "css:finder"],
+        ["xpath=//input[@id='NA']", "xpath:attributes"],
+        ["xpath=//div[@id='Regis']/div/div/form/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b976d2b-4b27-4053-b557-04a6388c8389",
+      "comment": "",
+      "command": "type",
+      "target": "id=NA",
+      "targets": [],
+      "value": "${id}"
+    }, {
+      "id": "51c84bfb-66a8-4ba0-bd2a-8d73b0a2bd43",
+      "comment": "",
+      "command": "click",
+      "target": "id=CEr",
+      "targets": [
+        ["id=CEr", "id"],
+        ["name=CEr", "name"],
+        ["css=#CEr", "css:finder"],
+        ["xpath=//input[@id='CEr']", "xpath:attributes"],
+        ["xpath=//div[@id='Regis']/div/div/form/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07ad3356-b38d-416d-9dd9-9bb347dcb730",
+      "comment": "",
+      "command": "type",
+      "target": "id=CEr",
+      "targets": [
+        ["id=CEr", "id"],
+        ["name=CEr", "name"],
+        ["css=#CEr", "css:finder"],
+        ["xpath=//input[@id='CEr']", "xpath:attributes"],
+        ["xpath=//div[@id='Regis']/div/div/form/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${mail}"
+    }, {
+      "id": "ba2e03c8-1ee0-47ed-95c8-125de5df162d",
+      "comment": "",
+      "command": "click",
+      "target": "id=Passr",
+      "targets": [
+        ["id=Passr", "id"],
+        ["name=Passr", "name"],
+        ["css=#Passr", "css:finder"],
+        ["xpath=//input[@id='Passr']", "xpath:attributes"],
+        ["xpath=//div[@id='Regis']/div/div/form/div/div/div[2]/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "571854ab-12c0-48b9-a85b-c8d6c87cd472",
+      "comment": "",
+      "command": "type",
+      "target": "id=Passr",
+      "targets": [],
+      "value": "${id}"
+    }, {
+      "id": "f72bf8ef-c24d-4999-be15-80a57a350ae6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-dark",
+      "targets": [
+        ["css=.btn-dark", "css:finder"],
+        ["xpath=//button[@value='Submit']", "xpath:attributes"],
+        ["xpath=//div[@id='Regis']/div/div/form/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f1cd5de-95aa-4971-bdaf-d1f9a2d5be33",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-secondary",
+      "targets": [
+        ["css=.btn-secondary", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ingresar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fac302a-5b53-4f46-937e-0ee77e276866",
+      "comment": "",
+      "command": "click",
+      "target": "id=CE",
+      "targets": [
+        ["id=CE", "id"],
+        ["name=CE", "name"],
+        ["css=#CE", "css:finder"],
+        ["xpath=//input[@id='CE']", "xpath:attributes"],
+        ["xpath=//div[@id='Login']/div/div/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39fa04f5-1d22-487a-a995-1534079c2a8a",
+      "comment": "",
+      "command": "type",
+      "target": "id=CE",
+      "targets": [],
+      "value": "${mail}"
+    }, {
+      "id": "1c52a4fa-bccc-4132-b773-8d03545b2b8b",
+      "comment": "",
+      "command": "click",
+      "target": "id=Pass",
+      "targets": [
+        ["id=Pass", "id"],
+        ["name=Pass", "name"],
+        ["css=#Pass", "css:finder"],
+        ["xpath=//input[@id='Pass']", "xpath:attributes"],
+        ["xpath=//div[@id='Login']/div/div/div[2]/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6d7fd89-95d4-4e48-a3d6-787170f98a1b",
+      "comment": "",
+      "command": "type",
+      "target": "id=Pass",
+      "targets": [],
+      "value": "${id}"
+    }, {
+      "id": "79f861be-045f-42c0-a723-581e2e96cc98",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-light",
+      "targets": [
+        ["css=.btn-light", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='Login']/div/div/div[2]/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07ea2521-1789-4c19-b6db-afb6ca375cd3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cerrar sesión",
+      "targets": [
+        ["linkText=Cerrar sesión", "linkText"],
+        ["css=.btn-outline-secondary", "css:finder"],
+        ["xpath=//a[contains(text(),'Cerrar sesión')]", "xpath:link"],
+        ["xpath=//a[@href='http://localhost/grupoTea/public/logout']", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Cerrar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "0ecf3e25-2bbe-4bb3-a876-12bee8487943",

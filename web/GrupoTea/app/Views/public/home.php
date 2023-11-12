@@ -9,7 +9,7 @@
           <?php endforeach ?>
         </ul>
       <?php endif ?>
-      <?php if (session('message') !== null) : ?>
+      <?php if (session()->has('message')) : ?>
         <?= "<h2 class='text-center bg-danger bg-gradient bg-opacity-50 p-1 border border-warning rounded'>".session('message')."</h2>"; ?>
       <?php endif; ?>
       <h1>Nuestros Profesionales:</h1>
@@ -34,6 +34,7 @@ $('.owl-carousel').owlCarousel({
   loop:false,
   margin:10,
   nav:true,
+  dotsEach:true,
   responsive:{
     0:{
       items:1
@@ -47,7 +48,7 @@ $('.owl-carousel').owlCarousel({
     2000:{
       items:4
     }
-  }
+  },
 })
 if ('<?= session()->get('Tipo') ?>'=='User') {
   $('.turno-boton').removeClass( "d-none" )

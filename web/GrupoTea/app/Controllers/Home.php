@@ -43,7 +43,7 @@ class Home extends BaseController
     public function perfil()
     {
       $public = [
-        'Título' => 'Grupo Tea: Acerca de'
+        'Título' => 'Grupo Tea: Perfil'
       ];
       $prof = new profes();
       $user = new usuari();
